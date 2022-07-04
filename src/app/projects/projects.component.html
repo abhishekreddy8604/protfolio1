@@ -1,3 +1,4 @@
+<h2 class="text-center">PROJECTS</h2>
 <p-timeline [value]="events1" align="alternate">
   <ng-template pTemplate="marker" let-event>
     <span class="custom-marker shadow-2" [style.backgroundColor]="event.color">
@@ -7,11 +8,9 @@
   <ng-template pTemplate="content" let-event>
     <p-card [header]="event.status">
       <p>
-        {{ event.data.substring(0, event.data.length / 2)
+        {{ event.data.substring(0, 200)
         }}<span *ngIf="!event.readMore"> ...</span>
-        <span *ngIf="event.readMore">
-          {{ event.data.substring(event.data.length / 2) }}</span
-        >
+        <span *ngIf="event.readMore"> {{ event.data.substring(200) }}</span>
       </p>
       <button
         pButton

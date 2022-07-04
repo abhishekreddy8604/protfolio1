@@ -14,10 +14,10 @@ export class ProjectsComponent implements OnInit {
   constructor() {
     this.events1 = [
       {
-        status: "Android App'S",
+        status: 'Block Chain',
         icon: PrimeIcons.CIRCLE,
         readMore: false,
-        data: 'I have build some Android namely Brain trainer, Tic-tac toe, Location copier, Currency converter, Clone text .In brain trainer app user have to answer the the math questions as many as he can in 30s for each question and time gradually decreases for next question, Currency converter is an basic app which is used to convert the American dollars to Indian rupees.You can know the functionality of the other apps by visiting the github',
+        data: 'In this project customer has a register with all details then login. Customer has a create aaccount.Cutomer has a search a data. Customer has a request. Customer has a key.Uber eats has aregister and then login.Uber eats has a customer.Uber eats has a restaurant.Uber eats has a no oflists.Uber eats has arequest.Restaurant has a register and then login.Restaurant has a upload aproduct.Restaurant has a send product.Restaurant has a courier information. Courier has a login.Courier has a search a company. Courier has a add a delivery. Courier has a added a deliveryboy. Courier has also have a delivery boy. Courier has a provided a key. Delivery boy has alogin. Delivery boy has a product key. Delivery boy was also a buyer key.',
       },
       {
         status: 'Full Stack',
@@ -26,17 +26,10 @@ export class ProjectsComponent implements OnInit {
         data: "Every Business starting from startup's to multi national companies they need a website to show case there products or services to the customer so bulding website should be very essential . As a full stack Web developer i can build a website from scratch and and deploye it on servers like aws or custom server using nodejs and mongodb.",
       },
       {
-        status: 'Shipped',
+        status: 'Android',
         icon: PrimeIcons.CIRCLE,
         readMore: false,
-        data: '',
-      },
-
-      {
-        status: 'Delivered',
-        icon: PrimeIcons.CIRCLE,
-        readMore: false,
-        data: '',
+        data: 'E-commerce (electronic commerce) is the buying and selling of goods and services, or the transmitting of funds or data, over an electronic network, primarily the internet. These business transactions occur either as business-to-business (B2B), business-to-consumer (B2C), consumer-to-consumer or consumer-to-business.The terms e-commerce and e-business are often used interchangeably. The term e-tail is also sometimes used in reference to the transactional processes that make up online retail shopping.',
       },
     ];
 

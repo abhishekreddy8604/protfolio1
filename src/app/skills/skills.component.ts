@@ -1,10 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { ThemeService } from '../theme.service';
 
 @Component({
   selector: 'app-skills',
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.scss'],
+  encapsulation: ViewEncapsulation.None,
 })
 export class SkillsComponent implements OnInit {
   data: any;

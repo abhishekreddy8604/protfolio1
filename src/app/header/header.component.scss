@@ -12,11 +12,11 @@ body {
 }
 @media only screen and (max-width: 768px) {
   .header {
-    background-position: 80% !important;
+    background-position: 41% !important;
   }
 }
 .header {
-  background: url("../../assets/rohith.jpg") no-repeat top center fixed;
+  background: url("../../assets/Background.jpg") no-repeat top center fixed;
   background-size: cover;
   height: 765px;
   width: 100%;
@@ -32,7 +32,7 @@ body {
   top: 39%;
   left: 13%;
   margin-top: -29px;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 .name {
   font-size: 60px;
